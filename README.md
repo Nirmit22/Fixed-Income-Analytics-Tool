@@ -54,16 +54,3 @@ jupyter notebook fixed_income_demo.ipynb
 ```
 
 ---
-
-## 🎓 CFA Curriculum Mapping
-
-| Topic                         | CFA Level II Reading |
-|------------------------------|----------------------|
-| Bond Pricing                  | Reading 34           |
-| Yield Curves                  | Reading 35           |
-| Credit Spreads                | Reading 36           |
-| Duration & Convexity          | Reading 34, 35       |
-| Credit Risk & Expected Loss   | Reading 36           |
-
----
-
