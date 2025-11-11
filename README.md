@@ -6,7 +6,7 @@ A Python-based analytics engine to model and analyze straight (option-free) bond
 
 ## 🎯 Project Objective
 
-This project demonstrates practical implementation of core fixed income concepts to support **quant interviews**, **CFA candidates**, and **financial engineers**. It focuses exclusively on:
+This project demonstrates practical implementation of core fixed income concepts. It focuses exclusively on:
 
 - **Straight bond pricing**
 - **Yield curve construction**
@@ -67,6 +67,3 @@ jupyter notebook fixed_income_demo.ipynb
 
 ---
 
-## 👨‍💼 Author
-
-Developed by **Quantitative Financial Engineer GPT** – focused on tools for finance professionals and quant candidates.
