@@ -10,10 +10,6 @@ Includes:
 - Effective duration (via shift in yield)
 - Convexity (price curvature)
 - Key rate duration (sensitivity to specific yield curve points)
-
-Aligned with CFA Level II Fixed Income (Readings 34 and 35).
-
-Author: Quantitative Financial Engineer
 """
 
 import numpy as np
