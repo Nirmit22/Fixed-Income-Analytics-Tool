@@ -9,9 +9,6 @@ Includes:
 - I-spread (spread over swap curve)
 - Z-spread (zero-volatility spread)
 
-CFA Level II-aligned (Reading 36): Understanding credit spreads and risk premiums.
-
-Author: Quantitative Financial Engineer
 """
 
 import numpy as np
