@@ -8,9 +8,6 @@ Includes basic credit risk analysis:
 - Expected Loss (EL) = PD × LGD × EAD
 - Support for rating-based inputs (using mapping)
 
-Aligned with CFA Level II Fixed Income (Reading 36).
-
-Author: Quantitative Financial Engineer
 """
 
 # Example mapping from rating to probability of default (PD)
