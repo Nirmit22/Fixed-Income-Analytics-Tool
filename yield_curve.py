@@ -9,9 +9,6 @@ This module includes functionality to:
 - Calculate forward rates
 - Plot yield curves
 
-CFA Level II-aligned (Reading 35): Understanding the term structure of interest rates.
-
-Author: Quantitative Financial Engineer
 """
 
 import numpy as np
