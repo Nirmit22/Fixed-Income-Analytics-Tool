@@ -8,6 +8,7 @@ Includes:
 - Macaulay duration
 - Modified duration
 - Effective duration (via shift in yield)
+- Effective convexity (via shift in yield)
 - Convexity (price curvature)
 - Key rate duration (sensitivity to specific yield curve points)
 """
@@ -69,6 +70,25 @@ def effective_duration(bond_price_up, bond_price_down, bond_price, delta_y):
     - Effective duration
     """
     return (bond_price_down - bond_price_up) / (2 * bond_price * delta_y)
+
+def effective_convexity(bond_price_up, bond_price_down, bond_price, delta_y):
+    """
+    Estimate effective convexity via repricing under parallel yield shifts.
+
+    Unlike the closed-form convexity() below (which assumes fixed cash flows),
+    effective convexity is computed purely from repriced values, so it remains
+    valid for bonds whose cash flows change with rates (e.g. callable bonds).
+
+    Parameters:
+    - bond_price_up: Price if yields go up by delta_y
+    - bond_price_down: Price if yields go down by delta_y
+    - bond_price: Current bond price
+    - delta_y: Change in yield (as decimal, e.g., 0.01 for 100bps)
+
+    Returns:
+    - Effective convexity
+    """
+    return (bond_price_down + bond_price_up - 2 * bond_price) / (bond_price * delta_y ** 2)
 
 def convexity(face_value, coupon_rate, ytm, periods, freq=2):
     """
