@@ -21,7 +21,7 @@ This project demonstrates practical implementation of core fixed income concepts
 | Module                  | Description                                                                 |
 |------------------------|-----------------------------------------------------------------------------|
 | `bond_pricing.py`       | Clean/dirty price, accrued interest, yield-to-maturity                     |
-| `yield_curve.py`        | Bootstrapping spot rates, forward rates, and yield curve plotting          |
+| `yield_curve.py`        | Bootstrapping spot rates (linear interpolation between maturities), forward rates, and yield curve plotting |
 | `spreads.py`            | G-spread, I-spread, Z-spread calculations                                  |
 | `duration_convexity.py` | Macaulay, Modified, Effective Duration and Convexity                       |
 | `credit_risk.py`        | Expected loss = PD × LGD × EAD based on credit rating                     |
